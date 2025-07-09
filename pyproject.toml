@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "b3-spring-final-production"
+version = "0.1.0"
+description = ""
+authors = ["mincluer <tokito.0131@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+spotify = "^0.10.2"
+spotipy = "^2.25.1"
+pandas = "^2.3.0"
+surprise = "^0.1"
+numpy = "<2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
